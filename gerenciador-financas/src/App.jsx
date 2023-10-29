@@ -1,6 +1,7 @@
 import { GlobaStyle } from "./styles/global";
 
 import Header from "./components/Header";
+import Dashboard from "./components/Dashboard";
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <GlobaStyle />
       <Header />
+      <Dashboard />
     </>
   )
 }
