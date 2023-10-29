@@ -1,11 +1,13 @@
 import { GlobaStyle } from "./styles/global";
 
+import Header from "./components/Header";
+
 function App() {
 
   return (
     <>
       <GlobaStyle />
-      <h1>Olá Mundo</h1>
+      <Header />
     </>
   )
 }
