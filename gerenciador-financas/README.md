@@ -1,8 +1,10 @@
-# React + Vite
+# Instruções de execução
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  1 - Clonar o repositório
+  2 - Entrar no diretório "gerenciador-financas"
+  3 - Executar o comando "npm install"
+  5 - Instalar bibliotecas utilizadas no projeto rodando os seguintes comandos:
+    - "npm install styled-components"
+  6 - Executar o comando "npm run dev" e abrir no navegador a porta localhost indicada no terminal
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  Em caso de execução do "Lizard", é necessario entrar na pasta "src" e nela rodar o comando "lizard"
