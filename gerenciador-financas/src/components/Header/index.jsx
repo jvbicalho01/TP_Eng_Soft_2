@@ -1,3 +1,7 @@
+import { useState } from "react"
+
+import Modal from "react-modal"
+
 import MoneyLogo from "../../assets/money-logo.svg"
 
 import {
@@ -5,13 +9,14 @@ import {
   Content
 } from "./styles"
 
-function Header() {
+function Header({ onOpenNewTransactionModal }) {
+
   return (
     <Container>
       <Content>
         <img src={MoneyLogo} alt="Money" />
-        <button type="button">
-          Nova Trasação
+        <button type="button" onClick={onOpenNewTransactionModal}>
+          Nova Transação
         </button>
       </Content>
     </Container>
